@@ -1,0 +1,28 @@
+# Core dependencies
+pyautogui>=0.9.54
+keyboard>=0.13.5
+easyocr>=1.7.1
+opencv-python>=4.8.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# AI and ML dependencies
+transformers>=4.36.0  # HuggingFace transformers
+torch>=2.1.0  # PyTorch for local models
+sentencepiece>=0.1.99  # For text processing
+accelerate>=0.25.0  # For model optimization
+bitsandbytes>=0.41.0  # For model quantization
+
+# Vision processing
+numpy>=1.24.0
+scikit-learn>=1.3.0  # For color clustering
+scikit-image>=0.21.0  # For image processing
+pillow>=10.0.0  # For image handling
+
+# Optional: Local LLM support
+ollama>=0.1.0  # For local model inference
+gpt4all>=0.2.0  # For offline text generation
+
+# Optional: Speech recognition
+whisper>=1.1.10  # For speech recognition
+sounddevice>=0.4.6  # For audio input

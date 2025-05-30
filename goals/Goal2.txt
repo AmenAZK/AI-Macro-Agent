@@ -1,0 +1,4 @@
+Task: Send message to Mohamed on WhatsApp Web
+Action: type_to_google
+Content: {sleep 2}{ctrl}https://web.whatsapp.com/
+Context: Opening WhatsApp Web

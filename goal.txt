@@ -1,0 +1,4 @@
+Task: Create a React component in Cursor
+Action: type_to_cursor
+Content: Create a new React component called LoginForm with email and password fields, form validation, and a submit button. Use modern React practices with hooks.
+Context: Need to implement a secure login form component for the application 

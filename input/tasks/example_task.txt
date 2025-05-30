@@ -1,0 +1,40 @@
+Task: Create a Modern E-commerce Website
+
+Visual Reference: website_design.png
+
+Requirements:
+1. Frontend:
+   - Modern, responsive design matching the provided image
+   - Product grid with filtering and search
+   - Shopping cart functionality
+   - User authentication system
+   - Checkout process
+
+2. Backend:
+   - RESTful API using FastAPI
+   - PostgreSQL database
+   - User authentication with JWT
+   - Product management system
+   - Order processing system
+
+3. Features:
+   - Real-time inventory updates
+   - Payment gateway integration
+   - Order tracking
+   - Email notifications
+   - Admin dashboard
+
+Success Criteria:
+- Website matches the design in the image
+- All features are functional
+- Mobile responsive
+- Secure authentication
+- Fast loading times
+- SEO optimized
+
+Constraints:
+- Must use React for frontend
+- Must use FastAPI for backend
+- Must implement proper error handling
+- Must include unit tests
+- Must follow security best practices 

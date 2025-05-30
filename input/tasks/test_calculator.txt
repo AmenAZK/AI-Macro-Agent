@@ -1,0 +1,27 @@
+Task: Create a Simple Calculator App
+
+Visual Reference: calculator_design.png
+
+Requirements:
+1. Frontend:
+   - Clean, modern calculator interface
+   - Basic arithmetic operations
+   - Clear and delete functionality
+   - Responsive design
+
+2. Features:
+   - Addition, subtraction, multiplication, division
+   - Clear button
+   - Delete button
+   - Error handling for invalid operations
+
+Success Criteria:
+- Calculator matches the design in the image
+- All basic operations work correctly
+- Mobile responsive
+- Clean error handling
+
+Constraints:
+- Must use React for frontend
+- Must include unit tests
+- Must follow accessibility guidelines

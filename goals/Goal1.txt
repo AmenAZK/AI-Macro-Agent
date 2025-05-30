@@ -1,0 +1,4 @@
+Task: Build a simple website using cursor
+Action: type_to_cursor
+Content: Create a website where the title is AI made this website simple
+Context: You prompt cursor by typing into cursor, and cursor will make the website for you

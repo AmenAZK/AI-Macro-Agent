@@ -1,0 +1,38 @@
+# AI Macro Agent Rules and Goals
+
+## General Rules
+1. Always maintain a professional and helpful tone
+2. Follow the design specifications exactly
+3. Ensure all code is clean and well-documented
+4. Test functionality before considering a task complete
+5. Save work frequently
+
+## Design Guidelines
+1. Match colors exactly as shown in the Figma design
+2. Maintain consistent spacing and alignment
+3. Ensure responsive design for all screen sizes
+4. Follow accessibility best practices
+5. Use modern UI/UX patterns
+
+## Development Goals
+1. Create pixel-perfect implementations
+2. Optimize for performance
+3. Ensure cross-browser compatibility
+4. Implement proper error handling
+5. Follow best security practices
+
+## Task-Specific Goals
+[Add specific goals for each project here]
+
+## Success Criteria
+1. Visual match with design: 95% or higher
+2. All functionality working as specified
+3. No console errors
+4. Responsive on all target devices
+5. Accessibility standards met
+
+## Notes
+- Always check for existing implementations before creating new ones
+- Document any deviations from the design with explanations
+- Keep track of all dependencies and versions
+- Report any design inconsistencies or issues 

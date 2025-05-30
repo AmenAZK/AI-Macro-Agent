@@ -1,0 +1,49 @@
+{
+    "llm": {
+        "type": "local",
+        "model": "gemma3:4b",
+        "api_url": "http://localhost:11434/api/generate",
+        "temperature": 0.7,
+        "max_tokens": 1000
+    },
+    "macro_driver": {
+        "typing_speed": 0.1,
+        "mouse_speed": 0.5,
+        "confidence_threshold": 0.8,
+        "cursor_chat_shortcut": "ctrl+shift+l"
+    },
+    "feedback": {
+        "sources": ["terminal", "screen", "logs"],
+        "ocr_engine": "easyocr",
+        "screenshot_interval": 1.0
+    },
+    "rules": {
+        "max_retries": 3,
+        "require_confirmation": true,
+        "safe_operations": [
+            "read",
+            "write",
+            "type",
+            "click"
+        ],
+        "restricted_operations": [
+            "delete",
+            "format",
+            "system"
+        ]
+    },
+    "memory": {
+        "type": "json",
+        "max_history": 10,
+        "save_path": "memory.json"
+    },
+    "paths": {
+        "input": {
+            "designs": "input/designs",
+            "specs": "input/specs"
+        },
+        "examples_dir": "examples",
+        "rules_file": "rules/Notes.txt",
+        "results_dir": "task_results"
+    }
+} 
